@@ -24,4 +24,4 @@ const dividir = (a,b) => {
 
 console.log(calculadora(10,20,sumar));
 console.log(calculadora(20,10,restar));
-console.log(calculadora(20,5,dividir))
+console.log(calculadora(20,5,dividir));

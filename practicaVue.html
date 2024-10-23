@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Vue</title>
+</head>
+
+<body class="bg-slate-200">
+
+    <header class="bg-red-700 h-20 flex justify-between items-center sticky top-0">
+        <h1 class="text-white text-3xl ml-4 font-semibold">Valorant</h1>
+        <nav class="mr-4 flex gap-4 text-white text-xl font-semibold">
+            <a href="">Inicio</a>
+            <a href="">Agentes</a>
+            <a href="">Info</a>
+        </nav>
+    </header>
+
+    <main id="app">
+
+        <section class="flex flex-col items-center mt-10">
+            <h2 class="text-3xl font-semibold">Agentes</h2>
+
+            <div class="flex mt-10 gap-4 border-2">
+
+                <input class="p-1" type="text" name="" id="">
+
+                <select class="w-[200px] " name="" id="">
+
+                </select>
+
+                <button class="bg-negro text-white w-[100px] p-2">Buscar</button>
+
+            </div>
+
+            <div class="flex flex-wrap justify-center gap-4">
+
+            <template v-if="agentes.length > 0" v-for="agente of agentes">
+                <div class="mt-10">
+                    <article class="flex flex-col items-center w-[300px] h-[455px] bg-white shadow-xl">
+                        <img src="https://media.valorant-api.com/agents/e370fa57-4757-3604-3648-499e1f642d3f/fullportrait.png" alt="">
+                        <h3 class="text-center text-black text-lg font-semibold">{{agente.displayName}}</h3>
+                        <p class="text-center text-black text-lg font-semibold overflow-hidden">{{agente.description}} </p>
+                        <button class="bg-negro text-white font-semibold w-full p-2">Ver Mas</button>
+                    </article>
+                </div>
+            </template>
+
+        </div>
+
+        </section>
+
+    </main>
+
+    <footer>
+
+    </footer>
+
+</body>
+
+<script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+<script src="tailwindconfig.js"></script>
+<script src="VUE/practicaVue.js"></script>
+
+</html>

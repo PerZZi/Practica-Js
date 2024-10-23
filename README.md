@@ -7,3 +7,6 @@ En esta carpeta voy a practicar funciones de distintos tipos(normales,flechas,or
 
 # Carpeta Apis
 En este van a haber practias de consumo de distintas api 
+
+# Carpeta MetodosArray
+Como su nombre indica es una carpeta donde guardar practicas de estos metodos ejem: map, filter, find, etc

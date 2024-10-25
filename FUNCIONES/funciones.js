@@ -82,3 +82,46 @@ const likes = (numero) => {
         
 } 
 console.log(likes(140200))
+
+
+/*Realizar una funcion que almacene en un arreglo todos los numeros pares desde
+a hasta b*/
+
+function almacenar (a,b) {
+
+/*Realizar una tabla de multiplicación de un número
+(a) desde 0 hasta x, pero que no se muestre la multiplicación de a * 5.*/
+ 
+
+/*Hacer una función que filtre todos los números que sean múltiplos del 3
+ de un arreglo que contenga los números del 1 al 100*/ 
+
+
+/*Hacer una función que haga de forma aleatoria un número entre 1 y 1000,
+y que a ese número le saqué su mitad, el doble y su raíz cuadrada.*/ 
+
+
+/*Hacer una función que, dado como dato de entrada nuestra fecha de cumpleaños,
+nos diga cuantos días faltan para el mismo*/
+
+
+/*Realizar una función que, dado como dato de entrada una oración,
+nos devuelva un arreglo que contenga todas las palabras usadas en la oración.*/
+
+
+/*Crea 5 objetos y almacénalos en un arreglo, debes hacer una función para filtrar
+a todas las personas que tengan el nombre Luis y que esa misma función también muestre 
+cuales son mayores de edad.*/
+
+
+/*Realizar una función que nos diga la fecha de apertura de un examen de la universidad,
+es decir, la cantidad de horas restantes que faltan para que abra dicho examen.
+En caso de que el examen haya cerrado que nos retorne un mensaje que diga 
+“El examen ya cerró”.*/
+
+
+/*En un arreglo tenemos varios valores numéricos,
+debemos de hacer una función que nos elimine aquellos valores
+que se encuentran repetidos.*/
+
+}

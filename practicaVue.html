@@ -41,7 +41,7 @@
             <template v-if="agentes.length > 0" v-for="agente of agentes">
                 <div class="mt-10">
                     <article class="flex flex-col items-center w-[300px] h-[455px] bg-white shadow-xl">
-                        <img src="https://media.valorant-api.com/agents/e370fa57-4757-3604-3648-499e1f642d3f/fullportrait.png" alt="">
+                        <img :src="agente.fullPortrait" :alt="agente.displayName + ' imagen' ">
                         <h3 class="text-center text-black text-lg font-semibold">{{agente.displayName}}</h3>
                         <p class="text-center text-black text-lg font-semibold overflow-hidden">{{agente.description}} </p>
                         <button class="bg-negro text-white font-semibold w-full p-2">Ver Mas</button>
